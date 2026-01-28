@@ -38,7 +38,7 @@ export default class MsTodoSync extends Plugin {
 
         await this.loadSettings();
 
-        this.microsoftClientProvider = new MicrosoftClientProvider(this.app, this.manifest.dir);
+        this.microsoftClientProvider = new MicrosoftClientProvider(this.app, this.manifest.dir || '.');
         this.todoApi = new TodoApi(this.microsoftClientProvider);
         this.settingsManager = new SettingsManager(this);
         this.msToDoActions = new MsTodoActions(this, this.settingsManager, this.todoApi);
@@ -100,7 +100,7 @@ export default class MsTodoSync extends Plugin {
             this.microsoftClientProvider.createPublicClientApplication();
         } catch (error) {
             if (error instanceof Error) {
-                this.userNotice.showMessage(error.message);
+                this.userNotice.showMessage(t('Error_ProviderInitializationFailed'));
                 log('error', error.message);
                 log('error', error.stack ?? 'No stack trace available');
             }

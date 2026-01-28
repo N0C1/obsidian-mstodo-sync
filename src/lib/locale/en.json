@@ -8,6 +8,7 @@
     "General_FailedToCreateList": "Failed to create list",
     "General_ListNameSet": "The list to synchronize is set.",
     "General_NoListNameSet": "No list to synchronize is set.",
+    "Error_ProviderInitializationFailed": "Failed to initialize Microsoft To Do provider. Check console for details.",
     "CommandNotice_CreatingToDo": "Creating To Do...",
     "CommandNotice_UpdatingToDo": "Updating To Do...",
     "CommandNotice_NothingSelected": "It seems that nothing is selected",

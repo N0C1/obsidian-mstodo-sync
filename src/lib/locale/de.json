@@ -9,6 +9,7 @@
     "General_FailedToCreateList": "Liste konnte nicht erstellt werden",
     "General_ListNameSet": "Die zu synchronisierende Liste wurde festgelegt.",
     "General_NoListNameSet": "Keine Liste zum Synchronisieren festgelegt.",
+    "Error_ProviderInitializationFailed": "Microsoft To Do Sync: Initialisierung fehlgeschlagen. Prüfe die Konsole.",
     "CommandNotice_CreatingToDo": "Erstelle Aufgabe...",
     "CommandNotice_UpdatingToDo": "Aktualisiere Aufgabe...",
     "CommandNotice_NothingSelected": "Nichts ausgewählt",
