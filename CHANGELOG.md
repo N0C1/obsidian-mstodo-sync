@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 
 ## 2026-01-28
 
+### Changed
+- **Default Entra App**: Updated the default Client ID to a dedicated application for the plugin. This ensures better community control, long-term stability, and removes dependence on the original author's personal client ID.
+
 ### Added
 - **Translations**: Added support for German, French, Dutch, Spanish, Italian, Portuguese, and Polish languages (AI-translated, contributions welcome!)
 - **Translation System**: Translation function now supports placeholders like `{pluginName}` for dynamic values

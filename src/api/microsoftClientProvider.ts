@@ -53,7 +53,7 @@ export class MicrosoftClientProvider {
         this.cachePath = `${pluginDir}/Microsoft_cache.json`;
         this.app = app;
 
-        this._clientId = 'a1172059-5f55-45cd-9665-8dccc98c2587';
+        this._clientId = '5fda6040-03d0-43a4-9196-96eeff5d3f54';
         this._authority = 'https://login.microsoftonline.com/consumers';
     }
 

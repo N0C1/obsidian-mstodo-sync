@@ -27,7 +27,7 @@
   - Improve the CSS styling of imported tasks to look more native and modern within Obsidian.
   - Consider adding icons or color-coding for priorities and tags.
 
-- [ ] **Entra App Migration**
+- [x] **Entra App Migration**
   - Register a new dedicated Azure (Entra ID) application for the plugin.
   - Move away from the original author's personal Client ID to ensure community control and long-term stability.
 
