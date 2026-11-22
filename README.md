@@ -1,3 +1,10 @@
+> ⚠️ **This repository is now read-only.**
+>
+> Microsoft is retiring **To Do** (apps will shut down on **June 30, 2027**) and consolidating personal task management into **Microsoft Planner**.
+> Since the underlying service and integrations are being phased out, this project will no longer be maintained.
+>
+> 👉 See: [Moving from Microsoft To Do to Microsoft Planner – Microsoft Support](https://support.microsoft.com/en-au/planner/to-do-to-planner#wl)   
+
 # Microsoft To Do Sync for Obsidian
 
 Sync your tasks between Obsidian and Microsoft To Do with two-way synchronization.
